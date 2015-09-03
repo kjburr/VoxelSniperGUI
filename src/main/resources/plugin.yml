@@ -1,0 +1,17 @@
+main: ${groupId}.${artifactId}
+name: ${artifactId}
+version: ${version}
+description: ${description}
+depend: [VoxelSniper]
+
+commands:
+  voxelgui:
+    aliases: [vg]
+
+permissions:
+  voxel.gui:
+    description: Allows you to use basic voxelgui commands
+    default: false
+  voxel.gui.admin:
+    description: Allows you to use admin voxelgui commands
+    default: false
